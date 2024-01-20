@@ -1,0 +1,367 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #918f8f79;
+}
+
+#corposite{
+    width: 980px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EBEBEB;
+    background-repeat: repeat-y;
+    background-position: 30%;
+    box-shadow: 0px 0px 50px black;
+    padding-bottom: 60px;
+    position: relative;
+}
+header{
+    background-color:#21272B;
+    color: white;
+}
+.logo{
+    margin: 0;
+    padding-right: 0px;
+    
+    padding-top: 0px;
+    display: inline-block;
+}
+.barco{
+    
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+   
+}
+.txtop{
+    
+    padding-bottom: 0%;
+    font-size: 14px;
+    display: inline-block;
+    font-style: italic;
+}
+h1{
+    color: #1BB4E8;
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-style: italic;
+    
+}
+h2{
+    display: inline-block;
+    font-family: arial, helvetica, sans-serif;
+    margin: 0%;
+}
+nav{
+    
+    display: inline-block;
+    padding: 0;
+    padding-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    
+    list-style: none;
+}
+nav ul li{
+
+    display: inline-block;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 12px;
+}
+.menu,.barra{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color: #1BB4E8;
+}
+
+#barcoprincipal{
+    position: relative;
+}
+.fundopreto{
+    background-color:rgba(26, 50, 67, 0.9);
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 350px;
+    height: 140px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}   
+.contato{
+    position: absolute;
+    /* background-color: burlywood; */
+}
+#barquinho{
+    margin-top: 30px;
+    padding-right: 10px;
+    /* background-color: aqua; */
+}
+.fone{
+    display: inline-block;
+}
+.telefone{
+    color: #C6B07F;
+    /* background-color: brown; */
+    display: inline-block;
+}
+/* ------------------------------------------------------------------------ */
+#destino{
+    width: 455px;
+    display: inline-block;
+    margin-bottom: 0;
+    /* background-color: rosybrown; */
+    padding: 15px;
+}
+#informacoes{
+    /* background-color: springgreen; */
+    margin: 0;
+    padding: 0;
+}
+#destino h3{
+    display: inline-block;
+    margin-top: -32px;
+    /* alinha verticalmente no top no middle ou no bottom */
+    vertical-align: middle;
+    padding-left: 3px;
+}
+#destino p,#destino h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#destino div{
+    background-color: royalblue;
+    color: white;
+}
+/* ----------------------------------------------------------------------------- */
+#nossafrota{
+    /* height: 450px; */
+    width: 450px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#nossafrota h3{
+    display: inline-block;
+    margin-top: -27px;
+    /* alinha verticalmente no top no middle ou no bottom */
+    vertical-align: middle;
+    padding-left: 3px;
+}
+#nossafrota p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#nossafrota h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nossafrota div{
+    background-color: rgb(182, 172, 127);
+    color: white;
+}
+.b1{
+    margin-bottom: 11px;
+}
+
+.b2{
+    margin-left: 11px;
+    margin-bottom: 11px;
+}
+
+.b4{
+    margin-left: 11px;
+}
+/* --------------------------------------------------------------------------------- */
+#footer{
+    background-color:rgba(26, 50, 67, 0.15);
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+#Loging{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5%;
+    border-radius: 15px;
+  } 
+  
+  
+  #Lo {
+   text-size-adjust: twr;
+  
+  color: white;
+  
+  }
+  
+  #email, #senha {
+  
+      padding: 10px;
+  }
+  
+  
+  .entrar {
+   
+      background-color: blue;
+      border: none;
+      padding: 10px;
+      color: white;
+      width: 100%;
+      border-radius: 15px;
+  }
+  
+  .entrar:hover{
+  
+     background-color: deepskyblue;
+  
+  }
+
+
+  .formularioContato { 
+
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+
+.formularioContato:before { 
+
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+
+}
+
+.formularioContato label  { 
+
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:#555; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label textarea { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+
+.formularioContato button.btn-envia { 
+
+    background-color:rgb(37,174,230); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+    background-color:#333; 
+
+}
+  
+.tabela{
+    max-width: 950px;
+    margin: 3rem auto 0;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
+
+.tabela header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
